@@ -1,5 +1,16 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+class Aluno {
+        String nome;
+        int idade;
+        String email;
+        String telefone;
+
+        public Aluno(String nome, int idade, String email, String telefone) {
+            this.nome = nome;
+            this.idade = idade;
+            this.email = email;
+            this.telefone = telefone;
+        }
+    }
+
     }
 }
